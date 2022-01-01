@@ -1,0 +1,13 @@
+*{
+    
+    background-color: whitesmoke;
+}
+header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+hr{
+    color:red;
+    background-color:red
+}
