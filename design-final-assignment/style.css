@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-size: 14px;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+.header {
+  background: rgba(0, 0, 0, 0.5) url("images/header.png.jpg");
+  background-blend-mode: darken;
+  height: 793px;
+  padding: 30px;
+  font-family: Montserrat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu {
+  display: inline-flex;
+}
+
+.menu__item {
+  padding: 0 21px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+.entry {
+  display: inline-flex;
+  align-items: center;
+}
+
+.login {
+  margin-right: 45px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: right;
+  letter-spacing: 0.2px;
+}
+
+.signup {
+  background: #23a6f0;
+  border-radius: 5px;
+  padding: 15px 25px;
+  border: none;
+  color: white;
+}
+
+.signup__text {
+  font-weight: bold;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  margin-right: 15px;
+}
+
+.content {
+  text-align: center;
+  margin-top: 167px;
+}
+
+.content__primary {
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+.content__secondary {
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+}
+
+.content__buttons {
+  margin-top: 40px;
+}
+
+.content__buttons--quote {
+  background: #23a6f0;
+  border-radius: 37px;
+  width: 185px;
+  height: 52px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+}
+
+.content__buttons--learn{
+  border-radius: 37px;
+  width: 185px;
+  height: 52px;
+  padding: 185 52;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  margin-left: 10px;
+  background-color: Transparent;
+  color:white;
+}
