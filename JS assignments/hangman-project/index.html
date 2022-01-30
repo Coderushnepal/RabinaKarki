@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="#" type="image/x-icon" />
+        <title>Hangman Game</title>
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="header__main">Hangman</h1>
+            <p class="header__secondary">
+                Find the hidden word - Enter a letter
+            </p>
+        </header>
+        <main>
+            <div class="hangman-container">
+                <div class="hangman">
+                    <svg height="250" width="200" class="figure-container">
+                        <!-- Rod -->
+                        <line x1="60" y1="20" x2="140" y2="20" />
+                        <line x1="140" y1="20" x2="140" y2="50" />
+                        <line x1="60" y1="20" x2="60" y2="230" />
+                        <line x1="20" y1="230" x2="100" y2="230" />
+
+                        <!-- Head -->
+                        <circle cx="140" cy="70" r="20" class="hangman_body" />
+                        <!-- Body -->
+                        <line
+                            x1="140"
+                            y1="90"
+                            x2="140"
+                            y2="150"
+                            class="hangman_body"
+                        />
+                        <!-- Arms -->
+                        <line
+                            x1="140"
+                            y1="120"
+                            x2="120"
+                            y2="100"
+                            class="hangman_body"
+                        />
+                        <line
+                            x1="140"
+                            y1="120"
+                            x2="160"
+                            y2="100"
+                            class="hangman_body"
+                        />
+                        <!-- Legs -->
+                        <line
+                            x1="140"
+                            y1="150"
+                            x2="120"
+                            y2="180"
+                            class="hangman_body"
+                        />
+                        <line
+                            x1="140"
+                            y1="150"
+                            x2="160"
+                            y2="180"
+                            class="hangman_body"
+                        />
+                    </svg>
+                </div>
+                <div class="wrong-letter-box">
+                    <div class="wrong_letters_el"></div>
+                </div>
+                <div class="word" >
+            
+                     <!-- <span class="letter">a</span>  -->
+                </div>
+            </div>
+
+            <!-- final message box -->
+            <div class="popup-box">
+                <div class="popup">
+                    <h2 class="message">You won the game</h2>
+                    <button class="play-btn">Play Again</button>
+                </div>
+            </div>
+
+            <!-- notification -->
+            <div class="notification-box">
+                <p>You have already enter this letter</p>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
