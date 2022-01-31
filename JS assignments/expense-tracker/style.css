@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+:root {
+    --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+body {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 450px;
+    min-height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    margin: 2rem 0;
+    font-size: 2.4rem;
+}
+
+.balance {
+    text-transform: uppercase;
+}
+
+.balance__text {
+    font-size: 1.6rem;
+}
+
+.balance__text+div {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.balance-amount {
+    margin: 2rem 0;
+    text-align: left;
+}
+
+.balance-card {
+    display: flex;
+    margin-bottom: 2rem;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    box-shadow: var(--box-shadow);
+}
+
+.balance__income {
+    margin: 2rem 2rem 2rem 4rem;
+    padding-right: 2rem;
+    border-right: 1px solid hsl(0, 5%, 76%);
+}
+
+.balance__expense {
+    margin: 2rem 4rem 2rem 0;
+}
+
+.history {
+    margin-bottom: 2rem;
+}
+
+.main-text{
+    display: flex;
+    font-size: 1.6rem;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text {
+    width: 400px;
+    padding-bottom: 1rem;
+}
+
+.items {
+    list-style: none;
+}
+
+.item{
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.plus{
+    border-right: 6px solid green;
+}
+
+.minus{
+    border-right: 6px solid red;
+}
+
+.item > button{
+    display: none;
+}
+
+.item:hover > button{
+    display: block;
+}
+
+.history__item {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    box-shadow: var(--box-shadow);
+}
+
+label{
+    display: inline-block;
+    margin: 1rem 0;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    display: block;
+    font-size: 1.6rem;
+    border-radius: 2px;
+    border: 1px solid #dedede;
+}
+
+input::placeholder{
+    font-size: 1.4rem;
+}
+
+.delete-btn{
+    left: -25px;
+    padding: 6px;
+    position: absolute;
+}
+
+.btn{
+    border: 0;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+    font-size: 1.6rem;
+    margin: 10px 0 30px;
+    background-color: #9c88ff;
+    box-shadow: var(--box-shadow);
+}

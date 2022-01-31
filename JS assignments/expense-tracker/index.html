@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Expense Tracker</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main class="container">
+            <h1 class="title">Expense Tracker</h1>
+            <div class="balance">
+                <div class="balance-amount">
+                    <div class="balance__text">Your Balance</div>
+                    <div class="total_balance">Rs. 0.00</div>
+                </div>
+                <div class="balance-card">
+                    <div class="card">
+                        <div class="balance__income">
+                            <div class="balance__text">Income</div>
+                            <div class="positive_balance">Rs. 0.00</div>
+                        </div>
+                        <div class="balance__expense">
+                            <div class="balance__text">Expense</div>
+                            <div class="negative_balance">Rs. 0.00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="history main-text">
+                <h2 class="text">History</h2>
+                <ul class="items">
+                    <!-- <li class="item">
+                        <button class="delete-btn" onclick="removeItem(id)">
+                            X
+                        </button>
+                        <div class="history__item">
+                            <span>Salary</span>
+                            <span>+60000</span>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <button class="delete-btn" onclick="removeItem(id)">
+                            X
+                        </button>
+                        <div class="history__item">
+                            <span>Salary</span>
+                            <span>+60000</span>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+            <div class="transaction main-text">
+                <h2 class="text">Add new transaction</h2>
+                <form id="form">
+                    <label for="text">Text</label>
+                    <input
+                        type="text"
+                        id="input_text"
+                        placeholder="Enter text..."
+                    />
+
+                    <label for="amount"
+                        >Amount <br />
+                        (negative-expense, positive-income)</label
+                    >
+                    <input
+                        type="amount"
+                        id="input_amount"
+                        placeholder="Enter amount..."
+                    />
+                    <button class="btn">Add transaction</button>
+                </form>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
