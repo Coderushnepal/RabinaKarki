@@ -2,7 +2,9 @@
 
 .content__primary{
     font-size: 40px;
-    color: brown;
 }
-
+.content__buttons{
+   display: flex;
+   direction: column;
+}
 }
