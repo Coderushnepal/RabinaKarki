@@ -454,7 +454,6 @@ margin-bottom: 10px;
 .cnt{
   height: 142px;
   display: flex;
-  
   font-style: normal;
   margin-top: 80px;
   align-items: center;
@@ -463,7 +462,7 @@ margin-bottom: 10px;
 
 .cnt-content{
   padding-top: 40px;
-  padding-left: 195px;
+
 }
 
 .cnt__heading{
@@ -553,8 +552,8 @@ footer{
 
 .last{
   display: flex;
-  
   font-style: normal;
+  justify-content: center;
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
@@ -564,7 +563,6 @@ footer{
 
 .last__content{
   padding-top: 15px;
-  margin-left: 195px;
   padding-right:600px;
 }
 .last__icons{
@@ -575,7 +573,9 @@ footer{
 .space{
   padding-right: 22px;
 }
-
+.hidden{
+  display: none;
+}
 .imgg{
     height: 20px;
     margin-bottom: 20px;

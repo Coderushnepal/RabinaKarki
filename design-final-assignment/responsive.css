@@ -244,4 +244,7 @@
     width: 66%;
     margin-bottom: 30px;
   }
+  .hidden{
+      display: block;
+  }
 }
