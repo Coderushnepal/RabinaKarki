@@ -8,10 +8,11 @@ ul {
 }
 
 body {
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   box-sizing: border-box;
   background-color: #FAFAFA;
+  font-family: Montserrat;
 }
 
 .header {
@@ -19,7 +20,7 @@ body {
   background-blend-mode: darken;
   height: 793px;
   padding: 30px;
-  font-family: Montserrat;
+  
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
@@ -30,6 +31,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.mobile-nav{
+  display: none;
 }
 
 .menu {
@@ -63,6 +68,7 @@ body {
   padding: 15px 25px;
   border: none;
   color: white;
+  font-family: Montserrat;
 }
 
 .signup__text {
@@ -83,6 +89,8 @@ body {
   line-height: 80px;
   text-align: center;
   letter-spacing: 0.2px;
+  width: 45%;
+  margin: 0 auto;
 }
 
 .content__secondary {
@@ -132,10 +140,10 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 23vh;
-  position: absolute;
   line-height: 20px;
   bottom: -100px;
+  margin: 0 auto;
+  margin-top: 154px;
 
 }
 
@@ -148,7 +156,7 @@ main {
   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 }
 .h3__class {
-  font-family: Montserrat;
+  
   font-weight: bold;
   font-size: 24px;
   line-height: 32px;
@@ -157,7 +165,7 @@ main {
 }
 
 .common__para {
-  font-family: Montserrat;
+  
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -196,7 +204,7 @@ main {
 
 .industry__main{
   text-align: center;
-  font-family: Montserrat;
+  
   font-style: normal;
   padding-top: 100px;
 }
@@ -238,7 +246,7 @@ main {
 .review__content{
   padding-top: 30px;
   padding-bottom: 16px;
-  font-family: Montserrat;
+  
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -250,7 +258,7 @@ main {
   display: flex;
   justify-content:space-around;
   margin-bottom: 80px;
-  padding:0px 200px;
+  padding:0px 355px;
 }
  
 .logos__individuals{
@@ -270,7 +278,7 @@ main {
 }
 
 .subscription__content{
-  font-family: Montserrat;
+  
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -293,7 +301,7 @@ main {
 }
 
 .email{
-  font-family: Montserrat;
+  
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -312,7 +320,7 @@ main {
   border-radius: 0px 5px 5px 0px;
 }
 .p{
-  font-family: Montserrat;
+  
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -332,7 +340,7 @@ main {
 }
 
 .branches__content{
-  font-family: Montserrat;
+  
   font-style: normal;
   letter-spacing: 0.2px;
   color: #FFFFFF;
@@ -366,11 +374,13 @@ main {
   position: relative;
   margin-top: -300px;
   margin-bottom: 134px;
+  margin: 0 auto;
+  margin-top: -300px;
 }
 .appointment__form--header{
   width:610px;
   margin-top: 40px;
-  font-family: Montserrat;
+  
   text-align: center;
   font-weight: bold;
   font-size: 24px;
@@ -387,7 +397,7 @@ main {
 }
 
 label{
-font-family: Montserrat;
+
 font-weight: 600;
 font-size: 14px;
 line-height: 24px;
@@ -404,7 +414,7 @@ margin-bottom: 10px;
   border: 1px solid #E6E6E6;
   box-sizing: border-box;
   border-radius: 5px;
-  font-family: Montserrat;
+  
   font-weight: normal;
   font-size: 14px;
   line-height: 28px;
@@ -422,7 +432,7 @@ margin-bottom: 10px;
 }
 
 .btn__submit--content{
-  font-family: Montserrat;
+  
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -444,8 +454,11 @@ margin-bottom: 10px;
 .cnt{
   height: 142px;
   display: flex;
-  font-family: Montserrat;
+  
   font-style: normal;
+  margin-top: 80px;
+  align-items: center;
+  justify-content: center;
 }
 
 .cnt-content{
@@ -495,7 +508,7 @@ margin-bottom: 10px;
 footer{
   height:272px;
   background-color: #ffffff;
-  font-family: Montserrat;
+  
   font-style: normal;
   line-height: 24px;
   letter-spacing: 0.2px;
@@ -507,7 +520,8 @@ footer{
 .footer-content{
   display: flex;
   padding-top: 50px;
-  padding-left: 195px;
+  justify-content: center;
+    align-items: center;
 }
 
 .heading{
@@ -539,7 +553,7 @@ footer{
 
 .last{
   display: flex;
-  font-family: Montserrat;
+  
   font-style: normal;
   font-weight: 600;
   font-size: 14px;

@@ -1,10 +1,247 @@
 @media only screen and (max-width: 600px) {
 
-.content__primary{
-    font-size: 40px;
-}
-.content__buttons{
-   display: flex;
-   direction: column;
-}
+    body{
+        overflow-x: hidden;
+    }
+  .content__primary {
+    font-size: 32px;
+    line-height: 50px;
+    width: 80%;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    background-color: #ffffff;
+    color: black;
+    font-weight: bold;
+  }
+
+  .icon {
+    display: flex;
+  }
+
+  .icon-nav {
+    margin-right: 10px;
+  }
+
+  .content__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .button__quote,
+  .button__learn {
+    margin-bottom: 25px;
+    width: 60%;
+  }
+
+  .header {
+    height: auto;
+    padding: 0px;
+   
+  }
+
+  .header__foot {
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+
+  .card__peace {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .peace__content {
+    flex-direction: column;
+    padding-top: 66px;
+    margin-top: 0;
+  }
+
+  .card__peace__content {
+    width: auto;
+    height: auto;
+    margin-right: 0;
+  }
+
+  .industry__main {
+    padding-top: 45px;
+  }
+
+  .industry__secondary {
+    padding: 45px 24px;
+  }
+
+  .review__section {
+    flex-direction: column;
+    padding-bottom: 100px;
+  }
+
+  .review__one {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .client__logos {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+
+  .logos__individuals {
+    margin-bottom: 40px;
+  }
+
+  .subscription {
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+    flex-direction: column;
+  }
+
+  .subscription__content {
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 0;
+  }
+
+  .subscription__email {
+    width: auto;
+    height: auto;
+  }
+
+  .branches__section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .branches__content {
+    padding: 60px 35px;
+  }
+
+  .branches__image {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .branches__image > img {
+    height: 50%;
+    width: 50%;
+  }
+
+  .cnt {
+    height: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+
+  .cnt-content {
+    padding: 0 80px;
+    margin-bottom: 50px;
+  }
+
+  .cnt-btn {
+    padding: 0;
+  }
+
+  .footer-content {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 40px;
+    background-color: white;
+  }
+
+  .footer-content > div {
+    margin-bottom: 30px;
+  }
+
+  .legal {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .features {
+    margin-left: 0;
+  }
+
+  .resources {
+    margin-left: 0;
+  }
+
+  .touch {
+    margin-left: 0;
+  }
+
+  .last {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .last__content {
+    margin: 0;
+    padding-right: 0;
+    width: 65%;
+  }
+
+  .last__icons {
+    margin-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  /* appointment  */
+  .appointment__section {
+    display: flex;
+    background: #ffffff;
+    margin: 333px;
+    margin-top: -300px;
+    margin-bottom: 134px;
+    margin: 0 auto;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+  }
+
+  .appointment__img > img {
+    height: 340px;
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+  }
+
+  .appointment__form--header {
+    width: auto;
+  }
+
+  .appointment__form--content {
+    margin-left: 0;
+    padding-left: 30px;
+    height: auto;
+  }
+
+  .col-75 {
+    width: 66%;
+  }
+
+  .input__img,
+  .input__img1 {
+    margin-left: 0;
+  }
+
+  .btn__submit {
+    width: 66%;
+    margin-bottom: 30px;
+  }
 }
